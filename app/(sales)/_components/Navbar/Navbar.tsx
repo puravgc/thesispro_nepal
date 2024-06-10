@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const liComponents = [
@@ -18,10 +17,10 @@ const liComponents = [
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="sticky top-0 bg-[#C2DDE8] z-10">
       <div className="flex justify-between mx-10 p-3 items-center">
        <h3>LOGO</h3>
-        <ul className="flex justify-around w-[50%]">
+        <ul className="flex justify-around w-[40%]">
          {
             liComponents.map((li) => (
                <li key={li.id} className="hover:text-sky-500 cursor-pointer ">

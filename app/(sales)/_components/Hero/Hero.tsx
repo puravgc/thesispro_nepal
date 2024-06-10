@@ -6,10 +6,10 @@ import Categories from '../categories/Categories'
 const Hero = () => {
   return (
     <main className='flex justify-around h-[55vh]'>
-        <div className='flex flex-col gap-5 my-16'>
-            <h1 className='text-5xl font-bold leading-tight'>Need Help for <br/> <span className='text-sky-500'> Assignments?</span> </h1>
+        <div className='flex flex-col gap-5 my-16 items-center'>
+            <h1 className='text-[4rem] font-bold leading-tight'>Need Help for <br/> <span className='text-sky-500'> Assignments?</span> </h1>
             <h4 className='text-xl font-semibold text-center leading-snug'>Your academic success, <br /> Our priority!</h4>
-            <Button variant='destructive'>Order Now</Button>
+            <Button variant='destructive' className='w-fit'>Order Now</Button>
         </div>
         <div>
             this is where the image will be placed 

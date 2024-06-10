@@ -7,43 +7,43 @@ const Categories = () => {
     <div>
       <h2 className="text-center font-semibold text-2xl my-5">Categories</h2>
       <div className="flex justify-between mx-10">
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="bg-[#706565] cursor-pointer hover:scale-150 transition duration-300 ease-in-out">
           <CardContent className="flex flex-col gap-2 p-2 w-32 h-32 items-center justify-center">
             <FaPython className="w-10 h-10"/>
             <h3>Python</h3>
           </CardContent>
         </Card>
-       
+        
       </div>
     </div>
   );
