@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ScrollArea className="h-[100vh] w-full border block p-2 rounded-t-lg">
+        <ScrollArea className="h-[100vh] w-full border block p-2 rounded-t-xl">
           <Navbar />
           {children}
           <Footer />

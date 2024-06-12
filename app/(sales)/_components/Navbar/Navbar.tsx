@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul className="flex justify-around w-[40%]">
          {
             liComponents.map((li) => (
-               <li key={li.id} className="hover:text-sky-500 cursor-pointer ">
+               <li key={li.id} className="hover:text-sky-500 cursor-pointer font-semibold">
                     {li.name}
                </li>
             ))
