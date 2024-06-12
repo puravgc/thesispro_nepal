@@ -1,8 +1,5 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import React from 'react'
-import Categories from '../categories/Categories'
-
 const Hero = () => {
   return (
     <main className='flex justify-around h-[55vh]'>
