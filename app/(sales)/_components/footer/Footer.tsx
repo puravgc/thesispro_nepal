@@ -5,7 +5,7 @@ const Footer = () => {
   return (
    <>
     <footer className='flex flex-col bg-[#31393C] p-2'>
-        <div className='flex justify-around '>
+        <div className='flex justify-around'>
         <div className='flex flex-col gap-2 w-[25%] p-5 text-white'>
             <h2 className='font-semibold text-xl '>Thesispro Nepal</h2>
             <p className='text-sm'>We offer best assignment help around the world ensuring privacy and plagiarism-free work.</p>
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='h-auto w-[1px] bg-white'/>
         <div className='w-[35%] block p-5'>
             <h2 className='text-center font-bold text-xl text-white'>Categories</h2>
-            <ul className='flex flex-wrap gap-10 p-3 justify-center items-center text-sm text-white font-semibold'>
+            <ul className='flex flex-wrap gap-9 p-3 justify-center items-center text-sm text-white font-semibold'>
                 <li className='w-28 h-auto  text-center'>Python</li>
                 <li className='w-28 h-auto  text-center'>Java</li>
                 <li className='w-28 h-auto  text-center'>Thesis</li>
@@ -51,7 +51,7 @@ const Footer = () => {
             </ul>
         </div>
         </div>
-        <div className='flex items-center justify-center text-white text-sm text-muted-foreground'>
+        <div className='flex items-center justify-center relative left-20 text-white text-sm text-muted-foreground'>
             <p className='flex items-center'>Copyright <Copyright className='h-4'/> 2024. ThesisProNepal. All Rights Reserved.</p>
         </div>
     </footer>

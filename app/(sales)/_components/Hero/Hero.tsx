@@ -7,12 +7,12 @@ const Hero = () => {
       <div className="flex flex-col gap-5 my-16 items-center">
         <h1 className="text-[4rem] font-bold leading-tight">
           Need Help for <br />
-          <span className="text-sky-500 font-bold">
+          <span className="text-sky-500 font-bold block">
             <TypingAnimation
-            className="text-[4rem]"
+            className="text-[4rem] block w-[30rem]"
               text="Assignments?"
             />
-          </span>{" "}
+          </span>
         </h1>
         <h4 className="text-xl font-semibold text-center leading-snug">
           Your academic success, <br /> Our priority!
