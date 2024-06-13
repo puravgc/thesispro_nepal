@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -18,14 +17,16 @@ const SignInForm = () => {
         },
         body: JSON.stringify({ email, password }),
       });
-      if (response.ok) {
-        route.push("/");
-        alert(response.message);
-      } else {
-        console.log(response.error);
+      if (!response.ok) {
+        throw new Error("Login failed");
       }
-    } catch (error:any) {
-      alert(error.message);
+      const data = await response.json();
+
+      alert(data.message)
+      route.push("/");
+    } catch (error: any) {
+      console.error("Error logging in:", error);
+      alert("Login failed. Please try again.");
     }
   };
 
